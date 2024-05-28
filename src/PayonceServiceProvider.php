@@ -2,9 +2,9 @@
 
 namespace Jorjika\Payonce;
 
+use Jorjika\Payonce\Commands\PayonceCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Jorjika\Payonce\Commands\PayonceCommand;
 
 class PayonceServiceProvider extends PackageServiceProvider
 {
